@@ -16,5 +16,48 @@ namespace windows_forms_part_3
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string name = txtboxInput.Text;
+
+            lblMessage.Text = "Greetings " + name;
+
+
+
+           
+
+
+
+
+
+
+
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }
